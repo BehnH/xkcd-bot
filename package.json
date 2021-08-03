@@ -1,0 +1,23 @@
+{
+  "name": "xkcd-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for fetching xkcd comics hosted on Cloudflare Workers",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaitroseDev/xkcd-bot.git"
+  },
+  "author": "WaitroseDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WaitroseDev/xkcd-bot/issues"
+  },
+  "homepage": "https://github.com/WaitroseDev/xkcd-bot#readme",
+  "dependencies": {
+    "discord.js": "^13.0.0-dev.t1627992462.35fa3b3",
+    "node-fetch": "^2.6.1"
+  }
+}
