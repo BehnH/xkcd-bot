@@ -9,7 +9,7 @@ const { readdirSync } = require("fs");
  *
  * @returns {Promise<Number>} The amount of commands loaded
  */
-exports.init = (bot) => {
+exports.initCommands = (bot) => {
     return new Promise((resolve) => {
         // Create command and alias collections
         bot.commands = new Collection();

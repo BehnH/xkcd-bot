@@ -7,7 +7,7 @@ const { readdirSync } = require("fs");
  *
  * @returns {Promise<Number>} The amount of events loaded
  */
-exports.init = bot => {
+exports.initEvents = bot => {
     return new Promise((resolve) => {
         // Get all the event files
         const files = readdirSync("./events").filter(file => file.endsWith(".js"));

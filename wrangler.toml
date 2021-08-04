@@ -1,0 +1,5 @@
+name = "xkcd-bot"
+type = "webpack"
+workers_dev = true
+webpack_config = "webpack.config.js"
+account_id = "8aa0bba414db7214fef94e8a726826b9"

@@ -4,7 +4,7 @@
   "description": "Discord bot for fetching xkcd comics hosted on Cloudflare Workers",
   "main": "src/bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "NODE_ENV=development wrangler dev"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,16 @@
   "homepage": "https://github.com/WaitroseDev/xkcd-bot#readme",
   "dependencies": {
     "discord.js": "^13.0.0-dev.t1627992462.35fa3b3",
-    "node-fetch": "^2.6.1"
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.1",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/plugin-proposal-optional-chaining": "^7.14.5",
+    "@cloudflare/wrangler": "^1.19.0",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.48.0"
   }
 }
