@@ -1,5 +1,13 @@
 name = "xkcd-bot"
 type = "webpack"
+account_id = "8aa0bba414db7214fef94e8a726826b9"
 workers_dev = true
 webpack_config = "webpack.config.js"
-account_id = "8aa0bba414db7214fef94e8a726826b9"
+
+[env.staging]
+zone_id = "1bbff57af18b96d8674758b1e2c5940f"
+route = "xkcd-discord-qa.forgetfully.dev/*"
+
+[env.production]
+zone_id = "1bbff57af18b96d8674758b1e2c5940f"
+route = "xkcd-discord-prod.forgetfully.dev/*"
